@@ -1,0 +1,148 @@
+
+.all{
+    display:flex;
+    height: 100vh
+}
+
+main img{
+    width: 35%;
+    height: 70%;
+    margin: 100px 100px 0px 200px;
+}
+
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+    display: table;
+    font-size: 50px; 
+    line-height: 60px;
+    width: 65%;
+    margin:100px 0px 0px 10px;
+}
+
+.allText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    color: #ffffff;
+    margin:20px 0px 0px 10px;
+    width: 90%;
+}
+
+.allText p{
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.contacts{
+    background-color:black;
+    color: #fff9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-bottom: 15px;
+}
+.contacts1{
+    width: 64%;
+    height: 100%;
+    margin:20px 50px;
+}
+.contacts h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contacts p{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contacts2{
+    font-size: 15px;
+    margin:20px 15px;
+    height: 100%;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.links{
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.telegramLink img {
+    width: 54px;
+    height: 38px;
+}
+.whatsuppLink img{
+    width: 40px;
+    height: 40px;
+}

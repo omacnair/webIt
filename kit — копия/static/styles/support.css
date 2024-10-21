@@ -1,0 +1,37 @@
+.support{
+    display: flex;
+    height: 100vh;
+}
+.supportText{
+    width: 50%;
+    color:aliceblue;
+    margin: 100px 20px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #5c9bff;
+    display: table;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 60px; 
+}
+
+.supportList li{
+    border: 2px solid #2f3b6b;
+    border-radius: 10px;
+    width: 95%;
+    height: 150px;
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 10px;
+}
+.supportText p{
+    padding: 10px;
+}
+.supportText h3{
+   font-size: 30px;
+}

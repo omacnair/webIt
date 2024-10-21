@@ -1,0 +1,235 @@
+
+
+
+/*Main section*/
+.mainScreen{
+    height: 100vh;
+}
+
+.mainScreen img{
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000e3;
+}
+
+
+
+.Naming{
+    position: absolute;
+    top: 300px;
+    left:0px;
+    padding: 50px 1000px 50px 300px;
+}
+
+.Naming h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #5c9bff;
+    display: table;
+    font-size: 73px;
+    font-weight: 400px;
+    line-height: 90px;
+    /*padding: 5px;*/
+    margin-bottom: 20px;
+}
+
+.Naming a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    margin: 5px ;
+
+}
+.Naming h1 + a{ /*обращается к первой ссылке*/
+    border: 1px solid;
+    border-color: #a374ff;
+}
+.Naming h1 + a:hover{ /*обращается к первой ссылке*/
+    background-color: #a374ff;
+    color:#ffffff;
+}
+
+.Naming a:last-child{/*обращается ко второй ссылке*/
+    text-decoration: overline;
+    text-decoration-color: #84b5ff;
+}
+.Naming a:last-child:hover{
+    text-decoration-color:#a374ff;
+}
+
+/*Section featured*/
+
+.scheme{
+    background-color: black;
+    padding: 50px 20px 50px 50px;
+    cursor:default;
+    height: 100vh;
+    margin-top: 70px;
+}
+.scheme div{
+    display: flex;
+}
+
+/*.scheme .item{
+    border: 3px solid #a374ff;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.scheme a:hover{
+    background-color: #a374ff;
+    color:#ffffff;
+}*/
+
+.scheme .item{
+  background: linear-gradient(135deg, #8f59fc 20%, #84b5ff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em ;
+  border: 3px solid transparent;
+  border-image: linear-gradient(135deg, #8f59fc 20%, #84b5ff 70%);
+  border-image-slice: 1;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.scheme a:hover{
+    background: linear-gradient(135deg, #84b5ff 20%, #a374ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em ;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, #84b5ff 20%, #a374ff 70%);
+    border-image-slice: 1;
+    font-size: 29px;
+}
+
+
+.scheme .first a{
+    padding:5px 0px 10px 20px; 
+    margin: 0px 0px 15px 750px;
+}
+
+.scheme .second a, .scheme .fourth a{
+    padding:25px 15px 15px 20px; 
+    margin:0px 230px 15px 535px;
+}
+.scheme .second a:last-child, .scheme .fourth a:last-child{
+    padding:30px 30px 20px 20px; 
+    margin:0px 0px 15px 0px;
+}
+
+.scheme .midle a{
+    padding:20px 30px 20px 25px; 
+    margin:0px 230px 15px 320px;
+}
+.scheme .midle a:nth-child(2){
+    padding:35px 30px 15px 60px; 
+    margin:0px 230px 15px 0px;
+}
+.scheme .midle a:last-child{
+    padding:35px 30px 20px 25px; 
+    margin:0px 0px 15px 0px;
+}
+
+.scheme .fifth a{
+    padding:40px 0px 10px 20px; 
+    margin: 0px 0px 0px 750px;
+}
+
+
+
+.divider{
+    margin: 0 20px;
+    border-bottom: 1px solid #a374ff;
+}
+
+/*main information*/
+.about{
+    background-color: black;
+    color:aliceblue;  
+}
+.about h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #5c9bff;
+    display: table;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 60px;
+    /*padding: 5px;*/
+    margin:40px 0px 20px 300px;
+    
+}
+.aboutAll{
+    display: flex;
+}
+.about1,  .about2, .about3{
+    width: 32%;
+    height: 20%;
+    padding: 50px;
+    margin-right: 35px;
+}
+
+.about img{
+    width: 500px;
+    height: 350px;
+}
+
+.about h3{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+}
+.about P{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+}
+
+
+/*.mainText a{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-decoration: overline;
+    text-decoration-color: #56ff08;
+}
+.mainText a:hover{
+    text-decoration-color: #ff00eac2  ;
+}
+*/
+
+
+

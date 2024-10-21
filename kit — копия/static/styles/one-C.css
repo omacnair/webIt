@@ -1,0 +1,44 @@
+.one-C{
+    height: 100vh;
+}
+.one-C h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #5c9bff;
+    display: table;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 60px;
+    padding: 125px 20px 65px 40px ;
+}
+
+.one-Call{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.one-Csection{
+    margin: 0px 40px 20px 40px;
+    width: 30%;
+}
+.one-Ctext{
+    border: 2px dotted #2f3b6b;
+    width: 400px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.one-Ctext h3{
+    font-size: 35px;
+}
+.one-C p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.one-Cimg img{
+    width: 850px;
+}

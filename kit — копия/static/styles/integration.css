@@ -1,0 +1,40 @@
+.integration{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    height: 100vh;
+}
+.integrationImg{
+    width: 40%;
+}
+
+.integrationTitle{
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #a374ff 33%, #748fff 66%, #84b5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #5c9bff;
+    display: table;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 60px;
+    margin: 100px 40px 40px 20px;
+}
+
+.integrationPart{
+    display: flex;
+}
+
+.integrationPart img{
+    margin: 0px 20px 40px 20px;
+}
+.integrationText{
+    margin-right: 40px;
+}
+.integrationText h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.integrationText p{
+    font-size:20px ;
+}
